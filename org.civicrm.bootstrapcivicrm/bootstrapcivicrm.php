@@ -129,6 +129,7 @@ function bootstrapcivicrm_civicrm_pageRun($page) {
   CRM_Core_Resources::singleton()->addStyleFile('org.civicrm.bootstrapcivicrm', 'css/bootstrap.css');
   CRM_Core_Resources::singleton()->addScriptFile('org.civicrm.bootstrapcivicrm', 'js/radio-checkbox.js');
 }
+
 /**
  * Implementation of hook_civicrm_buildForm
  */
