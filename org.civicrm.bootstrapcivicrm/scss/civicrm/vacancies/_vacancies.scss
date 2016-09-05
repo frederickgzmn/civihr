@@ -143,7 +143,7 @@
       margin-right: 3px;
 
       &:after {
-        @include fa-icon(13px, '\f067');
+        @include fa-icon($font-size: 13px, $content: '\f067');
         position: relative;
         top: -1px;
         color: #fff !important;
@@ -162,7 +162,7 @@
           display: block;
 
           &:after {
-            @include fa-icon(13px, '\f073');
+            @include fa-icon($font-size: 13px, $content: '\f073');
             font-weight: normal;
             position: absolute;
             left: 338px;
@@ -345,7 +345,7 @@
                     margin: 0;
 
                     &:after {
-                      @include fa-icon(13px, '\f040', #ffffff);
+                      @include fa-icon($font-size: 13px, $content: '\f040', $color: #ffffff);
                       font-weight: normal;
                     }
 

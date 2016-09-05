@@ -13,7 +13,7 @@ CRM.$(function() {
    * during DOM changes
    */
   var observer = new MutationObserver(debounce(function() {
-    CRM.$('select:visible').select2();
+    CRM.$('select:visible:not([class^="ui-datepicker"])').select2();
   }, 500));
 
   observer.observe(document.querySelector('body'), {
