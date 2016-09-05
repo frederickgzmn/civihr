@@ -1,6 +1,8 @@
 .crm-container {
   @import 'sub-pages/add-activity';
   @import 'sub-pages/add-relationship';
+  @import 'sub-pages/export-contacts';
+  @import 'sub-pages/merge-contacts';
 
   .CRM_Contact_Form_Search_Advanced {
     @import 'variables';
