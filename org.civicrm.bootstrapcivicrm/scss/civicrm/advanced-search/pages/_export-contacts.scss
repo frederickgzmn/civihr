@@ -12,10 +12,11 @@
   }
 
   .help {
-    @extend %block-with-shadow;
+    border: 0;
     border-radius: 0;
     border-color: $gray;
     background-color: #ffffff;
+    padding: 17px 17px 0;
   }
 
   br {
@@ -37,6 +38,7 @@
 
   h3 {
     padding-left: 0;
+    font-size: 13px;
   }
 
   input + label {
